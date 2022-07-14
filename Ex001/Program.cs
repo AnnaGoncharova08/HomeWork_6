@@ -5,23 +5,18 @@
 
 void Zadacha41()
 {
-Console.WriteLine("Сколько чисел будет введено: ");
-string number = Console.ReadLine();
-Console.WriteLine("Введите числа: ");
-string numbers = Console.ReadLine();
-Positive (numbers);
-
-void Positive (string numbers)
-{
-    int count = 0;
-    for (int i = 0; i < numbers.Length; i++)
+Console.WriteLine("Введите необходимое количество чисел: ");
+int m = 5;
+int count = 0;
+for (int i = 0; i < m; i++)
     {
-        if (numbers[i] > 0)
-        {
-            count += 1;
-        }
+        Console.WriteLine();
+        Console.Write($" Введите {i}-е число: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+        if (number > 0) count++;
     }
-    Console.WriteLine(count);
-}
+    Console.Write($"Количество чисел больше нуля:" + count);
+    Console.WriteLine();
+    
 }
 Zadacha41();
