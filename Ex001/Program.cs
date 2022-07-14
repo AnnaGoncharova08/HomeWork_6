@@ -6,9 +6,9 @@
 void Zadacha41()
 {
 Console.WriteLine("Введите необходимое количество чисел: ");
-int m = 5;
+int m = 3;
 int count = 0;
-for (int i = 0; i < m; i++)
+for (int i = 1; i <= m; i++)
     {
         Console.WriteLine();
         Console.Write($" Введите {i}-е число: ");
@@ -17,6 +17,5 @@ for (int i = 0; i < m; i++)
     }
     Console.Write($"Количество чисел больше нуля:" + count);
     Console.WriteLine();
-    
 }
 Zadacha41();

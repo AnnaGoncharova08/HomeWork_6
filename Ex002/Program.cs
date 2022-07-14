@@ -4,10 +4,10 @@
 
 void Zadacha42()
 {
-int k1 = 0;
-int b1 = 3;
-int k2 = 1;
-int b2 = 2;
+int k1 = 5;
+int b1 = 2;
+int k2 = 9;
+int b2 = 4;
 double x;
 double y;
 
